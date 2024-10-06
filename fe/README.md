@@ -1,6 +1,6 @@
-# test_project
+# fe
 
-A new Flutter project.
+더 똑똑한 더치페이 앱
 
 ## Getting Started
 
