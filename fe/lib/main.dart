@@ -2,15 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:kakao_flutter_sdk_user/kakao_flutter_sdk_user.dart';
 import 'homepage.dart'; // HomePage 임포트 추가
 
-
 void main() {
+  // runApp() 호출 전 Flutter SDK 초기화
   KakaoSdk.init(
-      // 임시 앱키
-      nativeAppKey: '9a7a612c6ec4671d1fc45022b5459843'
-      // 기존 앱 키
-      // nativeAppKey: 'd86001ed71db96a40261eb31723e3745',
-      // javascriptAppKey: '8356013255026db797a63a0c7f0fdb7e'
+      nativeAppKey: 'd86001ed71db96a40261eb31723e3745',
+      javaScriptAppKey: '8356013255026db797a63a0c7f0fdb7e',
   );
+
   runApp(const MyApp());
 }
 
